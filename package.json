@@ -1,0 +1,14 @@
+{
+  "name": "petdo",
+  "private": true,
+  "packageManager": "pnpm@10.30.3",
+  "engines": { "node": ">=22" },
+  "pnpm": { "onlyBuiltDependencies": ["esbuild"] },
+  "scripts": {
+    "dev": "pnpm --filter @petdo/web dev",
+    "build": "pnpm --filter @petdo/web build",
+    "preview": "pnpm --filter @petdo/web preview",
+    "typecheck": "pnpm --filter @petdo/web exec tsc -b",
+    "test": "pnpm --filter @petdo/web test"
+  }
+}
