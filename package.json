@@ -8,7 +8,6 @@
     "dev": "pnpm --filter @petdo/web dev",
     "build": "pnpm --filter @petdo/web build",
     "preview": "pnpm --filter @petdo/web preview",
-    "typecheck": "pnpm --filter @petdo/web exec tsc -b",
-    "test": "pnpm --filter @petdo/web test"
+    "typecheck": "pnpm --filter @petdo/web exec tsc -b"
   }
 }
