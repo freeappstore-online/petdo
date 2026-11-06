@@ -141,7 +141,7 @@ function coinLabel(coins: number): string {
 
 // ── Pet Sprite ─────────────────────────────────────────────────────────────
 function PetSprite({
-  petDef, hunger, happiness, alive, deathCause, exploding,
+  petDef, hunger, alive, deathCause, exploding,
 }: {
   petDef: PetDefinition; hunger: number; happiness: number;
   alive: boolean; deathCause: "starved" | "exploded" | null; exploding: boolean;
